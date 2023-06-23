@@ -1,5 +1,5 @@
 import React from 'react'
-import elton from '../assets/elton.jpg'
+import elton from '../assets/elton2.jpg'
 import {TypeAnimation} from 'react-type-animation'
 import { FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
+        className="w-full h-screen object-fit object-left scale-x-[-1]"
         src={elton}
         alt="MB"
       />
@@ -39,7 +39,7 @@ const Main = () => {
               cursor={true}
             />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+          <div className='flex justify-between pt-6 max-w-[75px] w-full'>
             <FaLinkedinIn className="cursor-pointer" size={20} />
             <FaGithub className="cursor-pointer" size={20} />
           </div>
