@@ -32,7 +32,7 @@ const data = [
 const Work = () => {
   return (
     <div id='resume' className='max-w[1040] m-auto md:pt-20 p-4 py-16'>
-      <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Work</h1>
+      <h1 className='text-4xl font-bold text-center text-[#001b5e] pb-16'>Experience</h1>
 {data.map((item, idx)=>(
   <WorkItem key= {idx} dates={item.dates}  company={item.company} title={item.title} details={item.details}/>
 
